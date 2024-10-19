@@ -1,5 +1,49 @@
 .App {
   overflow-y: auto;
-  background-color: #001B32;
+  background-color: #3D5656;
   height: 100vh;
+}
+
+.links-group {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 30px;
+}
+
+.email {
+  position: absolute;
+  bottom: 75px;
+  right: 35px;
+  writing-mode: vertical-lr;
+  color: #ffffff;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 15px;
+}
+
+.scroll-line {
+  position: absolute;
+  bottom: 0;
+  right: 47px;
+  height: 65px;
+  width: 0.5px;
+  border-left: 0.5px solid #ffffff;
+}
+
+.links-line {
+  position: absolute;
+  top: 0;
+  left: 57px;
+  height: 82vh;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 0.5px;
+  border-left: 0.5px solid #ffffff;
 }

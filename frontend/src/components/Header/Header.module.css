@@ -1,6 +1,10 @@
 .customNavLink {
     color: #ffffff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Fira Code', monospace;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
+}
+
+.accentColor {
+    color: #C6E4EC;
 }

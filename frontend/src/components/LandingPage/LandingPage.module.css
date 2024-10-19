@@ -18,10 +18,10 @@
 }
 
 .hello {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
-    font-size: 22px;
-    color: #74e2b8;
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    color: #C6E4EC;
     margin-bottom: 15px; 
 }
 
@@ -51,11 +51,12 @@
 
 .buttonWrapper button {
     padding: 10px 35px; 
-    font-family:'Courier New', Courier, monospace;
-    color: #74e2b8;
-    background-color: #001B32;
-    border: 1px solid #74e2b8;
+    font-family: 'Fira Code', monospace;
+    color: #C6E4EC;
+    background-color: #3D5656;
+    border: 1px solid #C6E4EC;
     transition: background-color 0.4s ease;
+    border-radius: 5px;
 }
 
 .buttonWrapper button:hover {
