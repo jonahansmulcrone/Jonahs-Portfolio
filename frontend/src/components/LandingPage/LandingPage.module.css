@@ -1,0 +1,65 @@
+.landingPageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.landingPageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hello, .name, .occupation, .description {
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.2; 
+}
+
+.hello {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 22px;
+    color: #74e2b8;
+    margin-bottom: 15px; 
+}
+
+.name {
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 15px; 
+}
+
+.occupation {
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    color: #94a3b8;
+}
+
+.description {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #94a3b8;
+    margin-top: 15px; 
+    line-height: 1.5; 
+    margin-bottom: 25px;
+}
+
+.buttonWrapper button {
+    padding: 10px 35px; 
+    font-family:'Courier New', Courier, monospace;
+    color: #74e2b8;
+    background-color: #001B32;
+    border: 1px solid #74e2b8;
+    transition: background-color 0.4s ease;
+}
+
+.buttonWrapper button:hover {
+    background-color: #ffffff;
+    border: 1px solid #001B32;
+    color: #001B32;
+}
