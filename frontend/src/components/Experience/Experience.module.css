@@ -1,0 +1,35 @@
+.experienceContainer {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.experienceWrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+
+.experienceHeader {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.accentColor {
+    color: #E4F6F9;
+    font-family: 'Fira Code', monospace;
+}

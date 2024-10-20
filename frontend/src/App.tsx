@@ -6,6 +6,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Header from './components/Header/Header'
 import LandingPage from './components/LandingPage/LandingPage';
 import AboutMe from './components/AboutMe/AboutMe';
+import Experience from './components/Experience/Experience';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <div className='email'>jonahmulcrone@gmail.com</div>
       <LandingPage />
       <AboutMe />
+      <Experience />
     </div>
   )
 }
