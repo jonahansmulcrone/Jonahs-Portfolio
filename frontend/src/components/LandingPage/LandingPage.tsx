@@ -13,7 +13,7 @@ const LandingPage: React.FC = () => {
                     and Finance.
                 </span>
                 <div className={styles.buttonWrapper}>
-                    <button>Contact me!</button>
+                    <button>Download my Resume!</button>
                 </div>
             </div>
         </section>

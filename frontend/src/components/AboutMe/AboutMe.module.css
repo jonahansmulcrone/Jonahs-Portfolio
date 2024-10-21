@@ -1,19 +1,63 @@
 .aboutMeContainer {
-    height: 100vh;
+    height: 100vh; 
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden; 
+    position: relative; 
 }
 
 .aboutMeWrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    max-width: 50%;
+    max-width: 70%;
+    width: 100%;
+    gap: 50px;
+    box-sizing: border-box;
 }
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    gap: 25px;
+    max-width: 60%;    
+    min-width: 300px;   
+    box-sizing: border-box;
+    flex-shrink: 1;      
+}
+
+
+@media (max-width: 1024px) {
+    .aboutMeWrapper {
+        max-width: 90%;  
+    }
+
+    .aboutMeContainer {
+        height: auto;    
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutMeContainer {
+        flex-direction: column; 
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    .aboutMeWrapper {
+        flex-direction: column; 
+        max-width: 90%;
+        gap: 30px;  
+    }
+}
+
 
 .contentHeader {
     color: #ffffff;
@@ -36,13 +80,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-.contentContainer {
-    display: flex;
-    flex-direction: column;
-    margin-right: 50px;
-    gap: 25px;
-}
-
 .contentWrapper {
     display: flex;
     flex-direction: column;
@@ -54,7 +91,22 @@
 .contentSection {
     color: #94a3b8;
     font-family: 'Inter', sans-serif;
+    font-size: 16px;    
+    line-height: 1.6;   
+    word-wrap: break-word;
 }
+
+@media (max-width: 768px) {
+    .contentContainer {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .contentSection {
+        font-size: 14px;
+    }
+}
+
 
 .ul {
     padding: 0; 
@@ -77,11 +129,12 @@
     position: relative; 
     width: 240px;
     height: 240px;
+    flex-shrink: 0;    
 }
 
 .photoContainer img {
-    height: 240px;
-    width: 240px;
+    width: 100%;
+    height: auto;    
     border-radius: 5px;
     z-index: 20; 
     position: relative;
@@ -97,4 +150,28 @@
     border: 2px solid #6D8F90;
     border-radius: 5px; 
     z-index: 1; 
+}
+
+@media (max-width: 1024px) {
+    .photoContainer {
+        width: 200px;
+        height: 200px;
+    }
+
+    .photoContainer::before {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .photoContainer {
+        width: 150px;
+        height: 150px;
+    }
+
+    .photoContainer::before {
+        width: 150px;
+        height: 150px;
+    }
 }
