@@ -2,6 +2,11 @@ import styles from './AboutMe.module.css'
 import jonahProfileImg from '../../assets/jonahProfileImg.jpeg'
 
 const AboutMe: React.FC = () => {
+
+    const technologies = ['Typescript', 'Javascript', 'ReactJS', 'Firebase',
+        'Spring', 'Python', 'Cypress', 'Selenium', 'AngularJS'];
+
+
     return (
         <section className={styles.aboutMeContainer}>
             <div className={styles.aboutMeWrapper}>
@@ -12,22 +17,16 @@ const AboutMe: React.FC = () => {
                             and engaging web applications. I took interest in programming after taking a statistics course at PLU
                             that taught me how to use R and RStudio.</div>
                         <div className={styles.contentSection}>As of today, I have graduated from PLU with bachelors in computer science and finance, and am
-                            interning as a <span className={styles.accentColorTwo}>fullstack software engineer</span> for Pierce County. 
+                            interning as a <span className={styles.accentColorTwo}>fullstack software engineer</span> for Pierce County.
                         </div>
-                        <div className={styles.contentSection}>I have also been working on a startup project, SavvyCSV, where I led the transition to a more modern and user-friendly 
-                            frontend application in ReactJS <span className={styles.accentColorTwo}>fullstack software engineer</span> for Pierce County. 
+                        <div className={styles.contentSection}>I have also been working on a startup project, SavvyCSV, where I led the transition to a more modern and user-friendly
+                            frontend application in ReactJS <span className={styles.accentColorTwo}>fullstack software engineer</span> for Pierce County.
                         </div>
                         <div className={styles.skillsList}>
                             <ul className={styles.ul}>
-                                <li className={styles.li}>Typscript</li>
-                                <li className={styles.li}>Javascript</li>
-                                <li className={styles.li}>ReactJS</li>
-                                <li className={styles.li}>Firebase</li>
-                                <li className={styles.li}>Spring</li>
-                                <li className={styles.li}>Python</li>
-                                <li className={styles.li}>Cypress</li>
-                                <li className={styles.li}>Selenium</li>
-                                <li className={styles.li}>AngularJS</li>
+                                {technologies.map((technology) =>
+                                    <li className={styles.li}>{technology}</li>
+                                )}
                             </ul>
                         </div>
                     </div>

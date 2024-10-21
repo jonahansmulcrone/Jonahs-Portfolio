@@ -1,14 +1,14 @@
-.experienceContainer {
-    height: 48vh;
+.projectsContainer {
+    height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
- 
 }
 
-.experienceWrapper {
+.projectsWrapper {
+    width: 100%;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
     justify-content: flex-start;
 }
 
-.experienceHeader {
+.projectsHeader {
     color: #ffffff;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -42,29 +42,3 @@
     color: #edb50c;
     font-family: 'Fira Code', monospace;
 }
-
-@media (max-width: 1024px) {
-    .experienceWrapper {
-        max-width: 90%;  
-    }
-
-    .experienceContainer {
-        height: auto;
-        padding-top: 20%;
-    }
-}
-
-@media (max-width: 768px) {
-    .experienceContainer {
-        flex-direction: column; 
-        justify-content: flex-start;
-        height: auto;
-    }
-
-    .experienceWrapper {
-        flex-direction: column; 
-        max-width: 90%;
-        gap: 30px;  
-    }
-}
-

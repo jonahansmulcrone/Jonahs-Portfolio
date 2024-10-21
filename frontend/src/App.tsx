@@ -7,6 +7,7 @@ import Header from './components/Header/Header'
 import LandingPage from './components/LandingPage/LandingPage';
 import AboutMe from './components/AboutMe/AboutMe';
 import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <LandingPage />
       <AboutMe />
       <Experience />
+      <Projects />
     </div>
   )
 }
