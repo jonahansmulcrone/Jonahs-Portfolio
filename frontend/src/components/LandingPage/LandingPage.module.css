@@ -21,7 +21,7 @@
     font-family: 'Fira Code', monospace;
     font-weight: 500;
     font-size: 20px;
-    color: #C6E4EC;
+    color: #edb50c;
     margin-bottom: 15px; 
 }
 
@@ -42,12 +42,28 @@
 
 .description {
     font-family: 'Inter', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color: #94a3b8;
     margin-top: 15px; 
     line-height: 1.5; 
     margin-bottom: 18px;
 }
+
+@media (max-width: 925px) {
+    .hello {
+        font-size: 16px;
+    }
+    .name, .occupation {
+        font-size: 60px;
+    }
+    .description {
+        font-size: 18px;
+    }
+    .landingPageContent {
+        align-items: center;
+    }
+}
+
 
 .buttonWrapper button {
     padding: 10px 35px; 
@@ -63,4 +79,18 @@
     background-color: #ffffff;
     border: 1px solid #001B32;
     color: #001B32;
+}
+
+@media (max-width: 772px) {
+    .name, .occupation {
+        font-size: 150%;
+    }
+    .description {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .buttonWrapper button {
+        padding: 8px 18px
+    }
 }

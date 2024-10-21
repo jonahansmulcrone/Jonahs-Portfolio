@@ -26,6 +26,8 @@ const AboutMe: React.FC = () => {
                                 <li className={styles.li}>Spring</li>
                                 <li className={styles.li}>Python</li>
                                 <li className={styles.li}>Cypress</li>
+                                <li className={styles.li}>Selenium</li>
+                                <li className={styles.li}>AngularJS</li>
                             </ul>
                         </div>
                     </div>

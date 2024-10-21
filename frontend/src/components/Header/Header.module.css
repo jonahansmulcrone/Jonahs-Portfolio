@@ -1,3 +1,9 @@
+.headerContainer {
+    position: sticky;
+    padding: 0;
+    width: 100%;
+}
+
 .customNavLink {
     color: #ffffff;
     font-family: 'Fira Code', monospace;
