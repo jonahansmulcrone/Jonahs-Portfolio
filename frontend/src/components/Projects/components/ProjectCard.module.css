@@ -16,6 +16,10 @@
     order: 1;
 }
 
+.imgWrapperRight, .imgWrapperLeft {
+    cursor: pointer;
+}
+
 .imgWrapperRight img {
     height: 300px;
     width: 600px;
@@ -28,6 +32,22 @@
     width: 600px;
     border-radius: 5px;
     z-index: 1;
+}
+
+.imgOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #edb50c; 
+    opacity: 0.2;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.imgWrapperLeft:hover .imgOverlay, .imgWrapperRight:hover .imgOverlay {
+    opacity: 0;
 }
 
 .contentWrapperRight {
@@ -47,7 +67,6 @@
     padding-left: 10px;
     order: 0;
 }
-
 
 .featuredProject {
     font-family: 'Fira Code', monospace;

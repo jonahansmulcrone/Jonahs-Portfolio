@@ -13,6 +13,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, projectTitle, project
         <div className={styles.projectCardContainer}>
             <div className={alignment === 'right' ? styles.imgWrapperRight : styles.imgWrapperLeft}>
                 <img src={imgUrl} />
+                <div className={styles.imgOverlay}></div>
             </div>
             <div className={alignment === 'right' ? styles.contentWrapperRight : styles.contentWrapperLeft}>
                 <div className={styles.featuredProject}>
