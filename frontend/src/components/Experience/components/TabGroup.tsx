@@ -107,8 +107,8 @@ const TabGroup: React.FC = () => {
                         <div>
                             <ul className={styles.ul}>
                                 <li>Transitioned geocoding CLI applications to <span className={styles.accentColor}>Spring Boot</span> micro web services to improve scalability, and developed <span className={styles.accentColor}>JUnit</span> tests with MockMvc, improving overall code coverage.</li>
-                                <li >Automated Protractor-to-Cypress migration for AngularJS E2E tests using Groovy and Selenium, reducing hours of manual effort.</li>
-                                <li>Expanded map tile functionality in the Pierce Application Core Library (PAC) by incorporating support through APIs like OpenLayers and ArcGIS.</li>
+                                <li >Migrated Protractor E2E tests to Cypress E2E for an Angular application.</li>
+                                <li>Expanded map tile functionality in the Pierce Application Core Library (PAC) by incorporating support through APIs like <span className={styles.accentColor}>OpenLayers</span> and <span className={styles.accentColor}>ArcGIS</span>.</li>
                             </ul>
                         </div>
                 </TabPanel>
@@ -121,7 +121,7 @@ const TabGroup: React.FC = () => {
                         </div>
                         <div>
                             <ul className={styles.ul}>
-                                <li>Spearheaded the transition to Firebase Firestore for the development of a real-time chatbot service in ReactJS, which connects to an AWS Lambda through a WebSocket server.</li>
+                                <li>Spearheaded the transition to <span className={styles.accentColor}>Firebase Firestore</span> for the development of a real-time chatbot service in <span className={styles.accentColor}>ReactJS</span>, which connects to an AWS Lambda through a WebSocket server.</li>
                                 <li >Integrated Firebase Auth to create a user service that streamlines the registration and sign-in process.</li>
                                 <li>Implemented dynamic routing for viewing conversation history by using React-Router-DOM for seamless navigation, while utilizing UUID to ensure unique identification for each conversation.</li>
                             </ul>

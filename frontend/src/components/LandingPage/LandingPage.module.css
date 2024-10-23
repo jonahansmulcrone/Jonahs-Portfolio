@@ -2,13 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
     height: 80vh;
+    width: 100%;
+    padding: 20px;
 }
 
 .landingPageContent {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
+    width: 1000px;
 }
 
 .hello, .name, .occupation, .description {
@@ -49,9 +54,9 @@
     margin-bottom: 18px;
 }
 
-@media (max-width: 925px) {
+@media (max-width: 868px) {
     .hello {
-        font-size: 16px;
+        font-size: 18px;
     }
     .name, .occupation {
         font-size: 60px;
@@ -59,8 +64,11 @@
     .description {
         font-size: 18px;
     }
+}
+
+@media (max-width: 1024px) {
     .landingPageContent {
-        align-items: center;
+        max-width: 90%;
     }
 }
 
@@ -87,7 +95,6 @@
     }
     .description {
         font-size: 100%;
-        text-align: center;
     }
 
     .buttonWrapper button {

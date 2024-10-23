@@ -16,11 +16,10 @@ const AboutMe: React.FC = () => {
                         <div className={styles.contentSection}>Hello! My name is Jonah. I enjoy developing user-friendly
                             and engaging web applications. I took interest in programming after taking a statistics course at PLU
                             that taught me how to use R and RStudio.</div>
-                        <div className={styles.contentSection}>As of today, I have graduated from PLU with bachelors in computer science and finance, and am
-                            interning as a <span className={styles.accentColorTwo}>fullstack software engineer</span> for Pierce County.
+                        <div className={styles.contentSection}>As of today, I have graduated from PLU with bachelors in <span className={styles.accentColor}>computer science</span> and <span className={styles.accentColor}>finance</span>, and am
+                            interning as a <span className={styles.accentColor}>fullstack software engineer</span> for Pierce County.
                         </div>
-                        <div className={styles.contentSection}>I have also been working on a startup project, SavvyCSV, where I led the transition to a more modern and user-friendly
-                            frontend application in ReactJS <span className={styles.accentColorTwo}>fullstack software engineer</span> for Pierce County.
+                        <div className={styles.contentSection}>I have also been working on a startup project, <span className={styles.accentColor}>SavvyCSV</span>, which is a web application that curates csv files using web-scrapping technologies and AI.
                         </div>
                         <div className={styles.skillsList}>
                             <ul className={styles.ul}>

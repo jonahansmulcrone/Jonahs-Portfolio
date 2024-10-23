@@ -88,11 +88,6 @@
     font-family: 'Fira Code', monospace;
 }
 
-.accentColorTwo {
-    color: #E4F6F9;
-    font-family: 'Inter', sans-serif;
-}
-
 .contentWrapper {
     display: flex;
     flex-direction: column;
