@@ -31,3 +31,9 @@
     color: #94a3b8;
     font-size: 18px
 }
+
+@media (max-width: 768px) {
+    .tabJobTitle, .tabJobDateRange, .ul {
+        font-size: 14px;
+    }
+}
