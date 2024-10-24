@@ -4,7 +4,7 @@ import styles from './Header.module.css'
 
 const Header: React.FC = () => {
     return (
-        <div>
+        <div className={styles.headerContainer}>
             <Navbar style={{ backgroundColor: '#94a3b8' }} data-bs-theme="light">
                 <Container>
                     <Navbar.Brand href="#home"></Navbar.Brand>

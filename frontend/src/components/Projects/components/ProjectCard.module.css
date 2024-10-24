@@ -141,3 +141,34 @@
     padding: 4px 12px;
     background-color: #6D8F90;
 }
+
+.projectCardContainerNarrow {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+}
+
+.projectCardWrapperNarrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    max-width: 90%;
+    width: 90%;
+    height: 250px;
+    background-color: #466161; 
+    border-radius: 10px;
+}
+
+.imgWrapperNarrow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.imgWrapperNarrow img {
+    width: 90%;
+    height: 100%;
+}

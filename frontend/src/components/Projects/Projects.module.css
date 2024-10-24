@@ -42,3 +42,29 @@
     color: #edb50c;
     font-family: 'Fira Code', monospace;
 }
+
+@media (max-width: 1024px) {
+    .projectsWrapper {
+        max-width: 90%;  
+    }
+
+    .projectsContainer {
+        height: auto;
+        padding-top: 20%;
+    }
+}
+
+@media (max-width: 980px) {
+    .projectsContainer {
+        flex-direction: column; 
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    .projectseWrapper {
+        flex-direction: column; 
+        max-width: 90%;
+        gap: 30px;  
+    }
+}
+

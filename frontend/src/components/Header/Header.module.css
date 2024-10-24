@@ -6,11 +6,15 @@
 
 .customNavLink {
     color: #ffffff;
-    font-family: 'Fira Code', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .accentColor {
     color: #edb50c;
+}
+
+@media (max-width: 868px) {
+    
 }

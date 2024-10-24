@@ -48,7 +48,7 @@ ul li {
   border-left: 0.5px solid #ffffff;
 }
 
-@media (max-width: 925px) {
+@media (max-width: 1200px) {
   .links-line, .scroll-line, .email {
     display: none;
   }
