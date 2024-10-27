@@ -11,7 +11,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, projectTitle, projectDescription, projectTechnologies, alignment }) => {
 
-    const [windowIsNarrow, setWindowIsNarrow] = useState(window.innerWidth >= 980);
+    const [windowIsNarrow, setWindowIsNarrow] = useState(window.innerWidth > 980);
 
 
     useEffect(() => {
@@ -54,6 +54,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, projectTitle, project
                 <div className={styles.projectCardWrapperNarrow}>
                     <div className={styles.imgWrapperNarrow}>
                         <img src={imgUrl} />
+                    </div>
+                    <div className={styles.projectTitleNarrow}>
+                        {projectTitle}
+                    </div>
+                    <div className={styles.projectDescriptionNarrow}>
+                        {projectDescription}
                     </div>
                 </div>
 
