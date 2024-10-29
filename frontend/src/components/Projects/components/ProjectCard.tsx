@@ -11,7 +11,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, projectTitle, projectDescription, projectTechnologies, alignment }) => {
 
-    const [windowIsNarrow, setWindowIsNarrow] = useState(window.innerWidth >= 980);
+    const [windowIsNarrow, setWindowIsNarrow] = useState(false);
 
 
     useEffect(() => {
@@ -21,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, projectTitle, project
 
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
-    })
+    }, [])
 
     return (
         !windowIsNarrow ? (
@@ -56,7 +56,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, projectTitle, project
                         <img src={imgUrl} />
                     </div>
                 </div>
-
             </div>
 
         )
