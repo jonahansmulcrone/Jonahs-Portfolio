@@ -1,4 +1,5 @@
-import styles from './LandingPage.module.css'
+import styles from './LandingPage.module.css';
+import resume from '../../assets/Jonah_Mulcrone_CV.pdf';
 
 const LandingPage: React.FC = () => {
     return (
@@ -6,14 +7,11 @@ const LandingPage: React.FC = () => {
             <div className={styles.landingPageContent}>
                 <span className={styles.hello}>Hi, my name is</span>
                 <h2><span className={styles.name}>Jonah Mulcrone.</span></h2>
-                <span className={styles.occupation}>I am a software engineer</span>
-                <span className={styles.description}>I recently graduated from Pacific
-                    Lutheran University in Tacoma, Washington <br /> where I double majored
-                    in Computer Science
-                    and Finance.
-                </span>
+                <span className={styles.occupation}>I am a software developer</span>
                 <div className={styles.buttonWrapper}>
-                    <button>Download my Resume!</button>
+                    <a href={resume} target="_blank">
+                        <button>See my Resume!</button>
+                    </a>
                 </div>
             </div>
         </section>

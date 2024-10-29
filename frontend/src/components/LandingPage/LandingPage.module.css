@@ -32,7 +32,7 @@
 
 .name {
     font-family: 'Inter', sans-serif;
-    font-size: 65px;
+    font-size: 75px;
     font-weight: 800;
     color: #ffffff;
     margin-bottom: 15px; 
@@ -40,18 +40,10 @@
 
 .occupation {
     font-family: 'Inter', sans-serif;
-    font-size: 65px;
+    font-size: 75px;
     font-weight: 800;
     color: #94a3b8;
-}
-
-.description {
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    color: #94a3b8;
-    margin-top: 15px; 
-    line-height: 1.5; 
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 868px) {

@@ -40,7 +40,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #edb50c; 
+    background-color: #b4ad98; 
     opacity: 0.2;
     transition: opacity 0.3s ease-in-out;
     z-index: 1;
@@ -157,9 +157,10 @@
     justify-content: center; 
     max-width: 90%;
     width: 90%;
-    height: 250px;
+    height: 500px;
     background-color: #466161; 
     border-radius: 10px;
+    gap: 25px;
 }
 
 .imgWrapperNarrow {
@@ -171,4 +172,24 @@
 .imgWrapperNarrow img {
     width: 90%;
     height: 100%;
+}
+
+.projectTitleNarrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.projectDescriptionNarrow {
+    color: #cdd7e6;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    padding: 0 50px 0 50px;
+}
+
+@media (max-width: 770px) {
+    .projectCardWrapperNarrow {
+        height: 500px;
+    }
 }

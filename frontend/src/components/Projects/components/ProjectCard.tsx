@@ -55,6 +55,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, projectTitle, project
                     <div className={styles.imgWrapperNarrow}>
                         <img src={imgUrl} />
                     </div>
+                    <div className={styles.projectTitleNarrow}>
+                        {projectTitle}
+                    </div>
+                    <div className={styles.projectDescriptionNarrow}>
+                        {projectDescription}
+                    </div>
                 </div>
             </div>
 

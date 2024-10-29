@@ -68,3 +68,9 @@
     }
 }
 
+@media (max-width: 868px) {
+    .projectsHeader {
+        font-size: 24px;
+    }
+}
+
