@@ -18,10 +18,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, projectTitle, project
         const handleResize = () => {
             setWindowIsNarrow(window.innerWidth <= 980);
         };
-
+    
+        handleResize();
+    
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
-    }, [])
+    }, []);
 
     return (
         !windowIsNarrow ? (
