@@ -5,7 +5,7 @@ import BusinessApp from '../../assets/Analytics-Service.png'
 
 const Projects: React.FC = () => {
     return (
-        <section className={styles.projectsContainer}>
+        <section className={styles.projectsContainer} id='projects'>
             <div className={styles.projectsWrapper}>
                 <div className={styles.headerWrapper}>
                     <div className={styles.projectsHeader}><span className={styles.accentColor}>03.</span>Some Recent Projects <hr style={{ width: '45%' }} /></div>

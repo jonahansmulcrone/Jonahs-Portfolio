@@ -8,7 +8,7 @@ const AboutMe: React.FC = () => {
 
 
     return (
-        <section className={styles.aboutMeContainer}>
+        <section className={styles.aboutMeContainer} id='about'>
             <div className={styles.aboutMeWrapper}>
                 <div className={styles.contentContainer}>
                     <div className={styles.contentHeader}><span className={styles.accentColor}>01.</span>About Me <hr style={{ width: '50%' }} /></div>
@@ -19,8 +19,9 @@ const AboutMe: React.FC = () => {
                         <div className={styles.contentSection}>As of today, I have graduated from PLU with bachelors in <span className={styles.accentColor}>computer science</span> and <span className={styles.accentColor}>finance</span>, and am
                             interning as a <span className={styles.accentColor}>fullstack software engineer</span> for Pierce County.
                         </div>
-                        <div className={styles.contentSection}>I have also been working on a startup project, <span className={styles.accentColor}>SavvyCSV</span>, which is a web application that curates csv files using web-scrapping technologies and AI.
+                        <div className={styles.contentSection}>I have also interned with OnyxAI, a startup originating from Duke University, where I worked on <span className={styles.accentColor}>SavvyCSV</span>, which is a web application that curates csv files using web-scrapping technologies and AI.
                         </div>
+                        <div className={styles.contentSection}>Some technologies I have been using recently:</div>
                         <div className={styles.skillsList}>
                             <ul className={styles.ul}>
                                 {technologies.map((technology) =>

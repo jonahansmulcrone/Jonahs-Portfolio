@@ -3,7 +3,7 @@ import styles from './Experience.module.css'
 
 const Experience: React.FC = () => {
     return (
-        <section className={styles.experienceContainer}>
+        <section className={styles.experienceContainer} id='experience'>
             <div className={styles.experienceWrapper}>
                 <div className={styles.headerWrapper}>
                 <div className={styles.experienceHeader}><span className={styles.accentColor}>02.</span>My Experience <hr style={{ width: '45%' }} /></div>

@@ -67,7 +67,7 @@ const TabGroup: React.FC = () => {
                     }}
                 >
                     <Tab
-                        label="Pierce County"
+                        label="Pierce County IT"
                         style={{
                             fontFamily: 'Fira Code',
                             fontSize: '16px',
@@ -102,12 +102,12 @@ const TabGroup: React.FC = () => {
                             Software Engineer Intern <span className={styles.accentColor}>@ Pierce County</span>
                         </div>
                         <div className={styles.tabJobDateRange}>
-                            May 2024 - Present
+                            June 2024 - Present
                         </div>
                         <div>
                             <ul className={styles.ul}>
                                 <li>Transitioned geocoding CLI applications to <span className={styles.accentColor}>Spring Boot</span> micro web services to improve scalability, and developed <span className={styles.accentColor}>JUnit</span> tests with MockMvc, improving overall code coverage.</li>
-                                <li >Migrated Protractor E2E tests to Cypress E2E for an Angular application.</li>
+                                <li >Migrated Protractor E2E tests to <span className={styles.accentColor}>Cypress E2E</span> for an <span className={styles.accentColor}>Angular</span> application, improving and modernizing test automation capabilities</li>
                                 <li>Expanded map tile functionality in the Pierce Application Core Library (PAC) by incorporating support through APIs like <span className={styles.accentColor}>OpenLayers</span> and <span className={styles.accentColor}>ArcGIS</span>.</li>
                             </ul>
                         </div>
@@ -117,13 +117,13 @@ const TabGroup: React.FC = () => {
                             Software Engineer <span className={styles.accentColor}>@ Onyx AI</span>
                         </div>
                         <div className={styles.tabJobDateRange}>
-                            August 2024 - Present
+                            January 2024 - May 2024
                         </div>
                         <div>
                             <ul className={styles.ul}>
                                 <li>Spearheaded the transition to <span className={styles.accentColor}>Firebase Firestore</span> for the development of a real-time chatbot service in <span className={styles.accentColor}>ReactJS</span>, which connects to an AWS Lambda through a WebSocket server.</li>
-                                <li >Integrated Firebase Auth to create a user service that streamlines the registration and sign-in process.</li>
-                                <li>Implemented dynamic routing for viewing conversation history by using React-Router-DOM for seamless navigation, while utilizing UUID to ensure unique identification for each conversation.</li>
+                                <li >Integrated <span className={styles.accentColor}>Firebase Auth</span> to create a user service that streamlines the registration and sign-in process.</li>
+                                <li>Implemented dynamic routing for viewing conversation history by using <span className={styles.accentColor}>React-Router-DOM</span> for seamless navigation, while utilizing UUID to ensure unique identification for each conversation.</li>
                             </ul>
                         </div>
                 </TabPanel>
