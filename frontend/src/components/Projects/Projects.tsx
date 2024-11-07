@@ -15,14 +15,16 @@ const Projects: React.FC = () => {
                     projectDescription='Savvy CSV is a web application designed to effortlessly create the ideal CSV file through the use of webscrapping technologies and AI.'
                     projectTitle='SavvyCSV'
                     projectTechnologies={['ReactJS', 'Firebase', 'Typescript', 'AWS Lambda']}
-                    alignment='right' />
+                    alignment='right'
+                    websiteUrl='https://savvycsv.com/' />
                 <ProjectCard
                     imgUrl={BusinessApp}
                     projectDescription='A personal financial management app that allows users to track and manage real-time expenses through the Plaid API.'
                     projectTitle='Financial Management App'
                     projectTechnologies={['ReactJS', 'Flask', 'Plaid API', 'SQL', 'Python', 'Typescript'
                     ]}
-                    alignment='left' />
+                    alignment='left'
+                    websiteUrl='https://github.com/StuartGavidia/businessapp' />
             </div>
         </section>
     );
