@@ -117,7 +117,7 @@ const TabGroup: React.FC = () => {
                             Software Engineer <span className={styles.accentColor}>@ Onyx AI</span>
                         </div>
                         <div className={styles.tabJobDateRange}>
-                            January 2024 - May 2024
+                            August 2024 - Present
                         </div>
                         <div>
                             <ul className={styles.ul}>
