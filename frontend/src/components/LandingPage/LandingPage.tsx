@@ -1,5 +1,5 @@
 import styles from './LandingPage.module.css';
-import resume from '../../assets/Jonah_Mulcrone_CV.pdf';
+import resume from '../../assets/Jonah_Mulcrone_CV_Pierce_County.pdf';
 
 const LandingPage: React.FC = () => {
     return (
