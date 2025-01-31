@@ -41,9 +41,13 @@
     right: 0;
     bottom: 0;
     background-color: #b4ad98; 
-    opacity: 0.2;
+    opacity: 0.15;
     transition: opacity 0.3s ease-in-out;
     z-index: 1;
+}
+
+.img {
+    position: relative;
 }
 
 .imgWrapperLeft:hover .imgOverlay, .imgWrapperRight:hover .imgOverlay {

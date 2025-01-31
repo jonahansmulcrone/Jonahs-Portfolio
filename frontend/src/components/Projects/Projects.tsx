@@ -1,8 +1,10 @@
 import ProjectCard from './components/ProjectCard';
-import styles from './Projects.module.css'
-import SavvyCSVImg from '../../assets/SavvyCSV.png'
-import BusinessApp from '../../assets/Analytics-Service.png'
-import SortingVisualizerImg from '../../assets/SortingVisualizer.png'
+import styles from './Projects.module.css';
+import SavvyCSVImg from '../../assets/SavvyCSV.png';
+import BusinessApp from '../../assets/Analytics-Service.png';
+import HAHDSurveyImg from '../../assets/HAHDSurvey.png';
+import SortingVisualizerImg from '../../assets/SortingVisualizer.png';
+import MyPortfolio from '../../assets/MyPortfolio.png';
 
 const Projects: React.FC = () => {
     return (
@@ -19,20 +21,34 @@ const Projects: React.FC = () => {
                     alignment='right'
                     websiteUrl='https://savvycsv.com/' />
                 <ProjectCard
+                    imgUrl={HAHDSurveyImg}
+                    projectDescription='A full-stack ReactJS application that collects human attention data through eye-tracking to train deep learning models for hazardous object detection, featuring user authentication, real-time leaderboards, and survey capabilities to gamify data collection across 100+ users.'
+                    projectTitle='Human-Aligned Hazard Dectection Model'
+                    projectTechnologies={['ReactJS', 'Typescript', 'Bootstrap', 'Express', 'MongoDB', 'JWT', 'WebGazer.js']}
+                    alignment='left'
+                    websiteUrl='https://onyxaillc.com/' />
+                <ProjectCard
                     imgUrl={BusinessApp}
                     projectDescription='A personal financial management app that allows users to track and manage real-time expenses through the Plaid API.'
                     projectTitle='Financial Management App'
                     projectTechnologies={['ReactJS', 'Flask', 'Plaid API', 'SQL', 'Python', 'Typescript'
                     ]}
-                    alignment='left'
+                    alignment='right'
                     websiteUrl='https://github.com/StuartGavidia/businessapp' />
                 <ProjectCard
                     imgUrl={SortingVisualizerImg}
                     projectDescription='A ReactJS application that assists students in visualizing common sorting algorithms.'
                     projectTitle='Sorting Algorithm Visualizer'
                     projectTechnologies={['ReactJS', 'Typescript']}
-                    alignment='right'
+                    alignment='left'
                     websiteUrl='https://github.com/jonahansmulcrone/SortingVisualizer' />
+                <ProjectCard
+                    imgUrl={MyPortfolio}
+                    projectDescription='A ReactJS application that showcases my skills and experience as a software developer.'
+                    projectTitle='Portfolio Website'
+                    projectTechnologies={['ReactJS', 'Typescript', 'AWS Amplify']}
+                    alignment='right'
+                    websiteUrl='https://jonahmulcrone.com' />
             </div>
         </section>
     );

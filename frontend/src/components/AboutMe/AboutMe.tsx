@@ -19,7 +19,7 @@ const AboutMe: React.FC = () => {
                         <div className={styles.contentSection}>As of today, I have graduated from PLU with bachelors in <span className={styles.accentColor}>computer science</span> and <span className={styles.accentColor}>finance</span>, and am
                             interning as a <span className={styles.accentColor}>fullstack software engineer</span> for Pierce County.
                         </div>
-                        <div className={styles.contentSection}>I have also interned with OnyxAI, a startup originating from Duke University, where I worked on <span className={styles.accentColor}>SavvyCSV</span>, which is a web application that curates CSV files using prompt-engineering with OpenAI's API and various web-scrapping technologies.
+                        <div className={styles.contentSection}>I have also interned with Onyx AI, a startup originating from Duke University, where I worked on <span className={styles.accentColor}>SavvyCSV</span>, which is a web application that curates CSV files using prompt-engineering with OpenAI's API and various web-scrapping technologies.
                         </div>
                         <div className={styles.contentSection}>Some technologies I have been using recently:</div>
                         <div className={styles.skillsList}>

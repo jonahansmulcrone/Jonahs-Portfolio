@@ -30,10 +30,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ websiteUrl, imgUrl, projectTi
         !windowIsNarrow ? (
             <div className={styles.projectCardContainer}>
                 <div className={alignment === 'right' ? styles.imgWrapperRight : styles.imgWrapperLeft}>
+                    <div className={styles.img}>
                         <img src={imgUrl} />
-                    <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
-                    <div className={styles.imgOverlay}></div>
-                    </a>
+                        <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
+                            <div className={styles.imgOverlay}></div>
+                        </a>
+                    </div>
                 </div>
                 <div className={alignment === 'right' ? styles.contentWrapperRight : styles.contentWrapperLeft}>
                     <div className={styles.featuredProject}>
