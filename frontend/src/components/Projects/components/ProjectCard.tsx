@@ -7,9 +7,10 @@ interface ProjectCardProps {
     projectDescription: string
     projectTechnologies: string[]
     alignment: string
+    websiteUrl: string
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, projectTitle, projectDescription, projectTechnologies, alignment }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ websiteUrl, imgUrl, projectTitle, projectDescription, projectTechnologies, alignment }) => {
 
     const [windowIsNarrow, setWindowIsNarrow] = useState(false);
 
@@ -18,9 +19,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, projectTitle, project
         const handleResize = () => {
             setWindowIsNarrow(window.innerWidth <= 980);
         };
-    
+
         handleResize();
-    
+
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
     }, []);
@@ -29,8 +30,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, projectTitle, project
         !windowIsNarrow ? (
             <div className={styles.projectCardContainer}>
                 <div className={alignment === 'right' ? styles.imgWrapperRight : styles.imgWrapperLeft}>
-                    <img src={imgUrl} />
+                        <img src={imgUrl} />
+                    <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
                     <div className={styles.imgOverlay}></div>
+                    </a>
                 </div>
                 <div className={alignment === 'right' ? styles.contentWrapperRight : styles.contentWrapperLeft}>
                     <div className={styles.featuredProject}>

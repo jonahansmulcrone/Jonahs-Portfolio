@@ -2,6 +2,7 @@ import ProjectCard from './components/ProjectCard';
 import styles from './Projects.module.css'
 import SavvyCSVImg from '../../assets/SavvyCSV.png'
 import BusinessApp from '../../assets/Analytics-Service.png'
+import SortingVisualizerImg from '../../assets/SortingVisualizer.png'
 
 const Projects: React.FC = () => {
     return (
@@ -14,15 +15,24 @@ const Projects: React.FC = () => {
                     imgUrl={SavvyCSVImg}
                     projectDescription='Savvy CSV is a web application designed to effortlessly create the ideal CSV file through the use of webscrapping technologies and AI.'
                     projectTitle='SavvyCSV'
-                    projectTechnologies={['ReactJS', 'Firebase', 'Typescript', 'AWS Lambda']}
-                    alignment='right' />
+                    projectTechnologies={['ReactJS', 'Firebase', 'Typescript', 'AWS Lambda', 'Redux', 'Framer Motion']}
+                    alignment='right'
+                    websiteUrl='https://savvycsv.com/' />
                 <ProjectCard
                     imgUrl={BusinessApp}
                     projectDescription='A personal financial management app that allows users to track and manage real-time expenses through the Plaid API.'
                     projectTitle='Financial Management App'
                     projectTechnologies={['ReactJS', 'Flask', 'Plaid API', 'SQL', 'Python', 'Typescript'
                     ]}
-                    alignment='left' />
+                    alignment='left'
+                    websiteUrl='https://github.com/StuartGavidia/businessapp' />
+                <ProjectCard
+                    imgUrl={SortingVisualizerImg}
+                    projectDescription='A ReactJS application that assists students in visualizing common sorting algorithms.'
+                    projectTitle='Sorting Algorithm Visualizer'
+                    projectTechnologies={['ReactJS', 'Typescript']}
+                    alignment='right'
+                    websiteUrl='https://github.com/jonahansmulcrone/SortingVisualizer' />
             </div>
         </section>
     );
