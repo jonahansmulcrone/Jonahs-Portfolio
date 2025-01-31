@@ -8,7 +8,6 @@ import { Box, Typography } from '@mui/material';
 const TabGroup: React.FC = () => {
     const [value, setValue] = useState(0);
 
-
     interface TabPanelProps {
         children?: React.ReactNode;
         index: number;
