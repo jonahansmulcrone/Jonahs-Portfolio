@@ -5,6 +5,7 @@ import BusinessApp from '../../assets/Analytics-Service.png';
 import HAHDSurveyImg from '../../assets/HAHDSurvey.png';
 import SortingVisualizerImg from '../../assets/SortingVisualizer.png';
 import MyPortfolio from '../../assets/MyPortfolio.png';
+import GaryPortfolio from '../../assets/Gary-Mulcrone-Portfolio.png'
 
 const Projects: React.FC = () => {
     return (
@@ -49,6 +50,13 @@ const Projects: React.FC = () => {
                     projectTechnologies={['ReactJS', 'Typescript', 'AWS Amplify']}
                     alignment='right'
                     websiteUrl='https://jonahmulcrone.com' />
+                <ProjectCard
+                    imgUrl={GaryPortfolio}
+                    projectDescription="An HTML, CSS, and Javascript application that showcases my father's flower photography, with a functional contact form built on Express."
+                    projectTitle='Flower Photography Portfolio'
+                    projectTechnologies={['HTML', 'CSS', 'Javascript', 'Express']}
+                    alignment='left'
+                    websiteUrl='https://garymulcrone.com' />
             </div>
         </section>
     );
