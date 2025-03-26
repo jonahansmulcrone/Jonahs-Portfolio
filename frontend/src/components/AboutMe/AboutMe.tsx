@@ -3,8 +3,8 @@ import jonahProfileImg from '../../assets/jonahProfileImg.jpeg'
 
 const AboutMe: React.FC = () => {
 
-    const technologies = ['Typescript', 'Javascript', 'ReactJS', 'Firebase',
-        'Spring', 'Python', 'Cypress', 'Selenium', 'AngularJS'];
+    const technologies = ['TypeScript', 'JavaScript', 'ReactJS', 'Angular', 'FastAPI', 'ExpressJS', 'Redis', 'Firebase',
+        'Spring', 'Python', 'Cypress'];
 
 
     return (
@@ -17,9 +17,9 @@ const AboutMe: React.FC = () => {
                             and engaging web applications. I took interest in programming after taking a statistics course at PLU
                             that taught me how to use R and RStudio.</div>
                         <div className={styles.contentSection}>As of today, I have graduated from PLU with bachelors in <span className={styles.accentColor}>computer science</span> and <span className={styles.accentColor}>finance</span>, and am
-                            interning as a <span className={styles.accentColor}>fullstack software engineer</span> for Pierce County.
+                            pursuing full time job opportunities in <span className={styles.accentColor}> software engineering</span>
                         </div>
-                        <div className={styles.contentSection}>I have also interned with Onyx AI, a startup originating from Duke University, where I worked on <span className={styles.accentColor}>SavvyCSV</span>, which is a web application that curates CSV files using prompt-engineering with OpenAI's API and various web-scrapping technologies.
+                        <div className={styles.contentSection}>In recent months, I interned with Onyx AI, a startup originating from Duke University. At Onyx AI I worked on <span className={styles.accentColor}>SavvyCSV</span>, which is a web application that curates CSV files using prompt-engineering with OpenAI's API and various web-scrapping technologies.
                         </div>
                         <div className={styles.contentSection}>Some technologies I have been using recently:</div>
                         <div className={styles.skillsList}>
