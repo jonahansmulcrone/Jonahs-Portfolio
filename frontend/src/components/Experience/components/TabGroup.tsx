@@ -123,6 +123,7 @@ const TabGroup: React.FC = () => {
                             <li>Transitioned geocoding CLI applications to <span className={styles.accentColor}>Spring Boot</span> micro web services to improve scalability, and developed <span className={styles.accentColor}>JUnit</span> tests with MockMvc, improving overall code coverage.</li>
                             <li >Migrated Protractor E2E tests to <span className={styles.accentColor}>Cypress E2E</span> for an <span className={styles.accentColor}>Angular</span> application, improving and modernizing test automation capabilities</li>
                             <li>Expanded map tile functionality in the Pierce Application Core Library (PAC) by incorporating support through APIs like <span className={styles.accentColor}>OpenLayers</span> and <span className={styles.accentColor}>ArcGIS</span>.</li>
+                            <li>Followed Agile Methodology, leveraging <span className={styles.accentColor}>Jira </span>and <span className={styles.accentColor}> Bitbucket</span> to streamline workflows and version control.</li>
                         </ul>
                     </div>
                 </TabPanel>

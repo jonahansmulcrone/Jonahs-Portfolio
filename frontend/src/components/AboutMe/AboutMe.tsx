@@ -16,10 +16,10 @@ const AboutMe: React.FC = () => {
                         <div className={styles.contentSection}>Hello! My name is Jonah. I enjoy developing user-friendly
                             and engaging web applications. I took interest in programming after taking a statistics course at PLU
                             that taught me how to use R and RStudio.</div>
-                        <div className={styles.contentSection}>As of today, I have graduated from PLU with bachelors in <span className={styles.accentColor}>computer science</span> and <span className={styles.accentColor}>finance</span>, and am
+                        <div className={styles.contentSection}>As of today, I have graduated from PLU with Bachelor's in <span className={styles.accentColor}>Computer Science</span> and Bachelor's of Business Administration<span className={styles.accentColor}>Finance</span>, and am
                             pursuing full time job opportunities in <span className={styles.accentColor}> software engineering</span>
                         </div>
-                        <div className={styles.contentSection}>In recent months, I interned with Onyx AI, a startup originating from Duke University. At Onyx AI I worked on <span className={styles.accentColor}>SavvyCSV</span>, which is a web application that curates CSV files using prompt-engineering with OpenAI's API and various web-scrapping technologies.
+                        <div className={styles.contentSection}>In recent months, I interned with Onyx AI, a tight-knit startup originating from Duke University. At Onyx AI I worked on <span className={styles.accentColor}>SavvyCSV</span>, which is a web application that curates CSV files using prompt-engineering with OpenAI's API and various web-scrapping technologies.
                         </div>
                         <div className={styles.contentSection}>Some technologies I have been using recently:</div>
                         <div className={styles.skillsList}>

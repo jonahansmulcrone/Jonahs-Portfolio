@@ -1,6 +1,6 @@
 import styles from './LandingPage.module.css';
 import { ReactTyped } from 'react-typed';
-import resume from '../../assets/Jonah_Mulcrone_CV.pdf';
+import resume from '../../assets/Jonah_Mulcrone_CV_1.pdf';
 
 const LandingPage: React.FC = () => {
     return (
